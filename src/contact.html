@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Home - Azzeddine Habib's Portfolio</title>
+    <title>Contact - Azzeddine Habib</title>
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -13,6 +12,7 @@
         <div class="container">
             <h1 class="logo">Azzeddine Habib</h1>
             <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="skills.html">Skills</a></li>
@@ -23,11 +23,21 @@
 </header>
 
 <main>
-    <section id="hero" class="hero">
+    <section class="contact">
         <div class="container">
-            <h2>Hello, I'm Azzeddine</h2>
-            <p>Passionate about creativity, technology, and on my way to becoming a computer technician.</p>
-            <a href="projects.html" class="btn">View My Projects</a>
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="btn">Send</button>
+            </form>
         </div>
     </section>
 </main>

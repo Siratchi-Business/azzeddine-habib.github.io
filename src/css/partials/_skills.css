@@ -1,0 +1,16 @@
+/* Skills Section */
+.skills {
+    padding: 4rem 2rem;
+    background: #ecf0f1;
+    text-align: center;
+}
+
+.skills-list {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.skills-list li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
