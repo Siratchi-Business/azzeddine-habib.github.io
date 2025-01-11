@@ -1,0 +1,17 @@
+/* typography.css */
+h1, h2 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}

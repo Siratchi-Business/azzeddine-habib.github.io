@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skills - Azzeddine Habib</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>Contact - Azzeddine Habib</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../img/favicon/favicon.ico">
 </head>
 <body>
 <header>
@@ -12,7 +13,7 @@
         <div class="container">
             <h1 class="logo">Azzeddine Habib</h1>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="skills.html">Skills</a></li>
@@ -23,15 +24,21 @@
 </header>
 
 <main>
-    <section class="skills">
+    <section class="contact">
         <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Technical problem solving</li>
-                <li>Hardware installation and configuration</li>
-                <li>Creative design</li>
-            </ul>
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="btn">Send</button>
+            </form>
         </div>
     </section>
 </main>

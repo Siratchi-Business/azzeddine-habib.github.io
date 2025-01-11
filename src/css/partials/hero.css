@@ -1,9 +1,9 @@
 /* Hero Section */
 .hero {
+    background: linear-gradient(to right, #169f84, #116756);
+    color: white;
     text-align: center;
-    padding: 4rem 2rem;
-    background: #1abc9c;
-    color: #fff;
+    padding: 4rem 1rem;
 }
 
 .hero h2 {
@@ -31,3 +31,24 @@
     background: #16a085;
     color: #fff;
 }
+
+
+.image-border {
+    display: inline-block;
+    border-width: 10px;
+    border-style: solid;
+    border-image-source: url('src/img/1736438546991.jpg');
+    border-image-slice: 30;
+    border-image-repeat: round;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
+
+.image-border .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
