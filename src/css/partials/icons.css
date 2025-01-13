@@ -1,0 +1,15 @@
+.social {
+    text-align: center;
+    padding: 1rem;
+    background: #ffffff;
+    color: #284152;
+}
+.social a {
+    color: #284152;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.social a:hover {
+    color: #169f84;
+}
