@@ -37,7 +37,7 @@
     display: inline-block;
     border-width: 10px;
     border-style: solid;
-    border-image-source: url('src/img/1736438546991.jpg');
+    border-image-source: url('../../img/profile.jpg');
     border-image-slice: 30;
     border-image-repeat: round;
     border-radius: 50%;
