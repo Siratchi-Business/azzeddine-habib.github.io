@@ -1,27 +1,56 @@
 .quick-sections {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
     justify-content: center;
     background: #284152;
-    padding: 2rem 0;
+    padding: 2rem 5%;
 }
 
 .section {
     background: #f4f4f4;
     border: 1px solid #ddd;
-    border-radius: 7px;
-    padding: 3rem;
+    border-radius: 15px;
+    padding: 2rem;
     text-align: center;
-    width: 200px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.section a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.section a:hover {
+    color: #127f6a;
 }
 
 .section a {
     color: #169f84;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
 }
+
+.section a:hover {
+    color: #127f6a;
+}
+
 section.contact {
     background: #ffffff;
     padding: 50px 20px;
@@ -36,7 +65,7 @@ section.contact::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('src/img/lines-pattern.png') no-repeat center/cover;
+    background: no-repeat center/cover;
     opacity: 0.2;
     z-index: 1;
 }

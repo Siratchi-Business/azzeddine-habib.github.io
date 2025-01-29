@@ -8,13 +8,13 @@ fetch('https://api.github.com/users/siratchi-business/repos')
             projectItem.classList.add('project-item');
 
             const projectTitle = document.createElement('h3');
-            projectTitle.textContent = project.name; // Nombre del proyecto
+            projectTitle.textContent = project.name;
 
             const projectDescription = document.createElement('p');
-            projectDescription.textContent = project.description || 'No description available'; // Descripción del proyecto
+            projectDescription.textContent = project.description || 'No description available';
 
             const projectLink = document.createElement('a');
-            projectLink.href = project.html_url; // Enlace al repositorio de GitHub
+            projectLink.href = project.url; // Enlace al repositorio de GitHub
             projectLink.textContent = 'Learn More';
 
             projectItem.appendChild(projectTitle);
