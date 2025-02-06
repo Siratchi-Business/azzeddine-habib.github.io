@@ -28,7 +28,7 @@ Welcome to my personal portfolio website! 🚀 This project showcases my skills,
 - ⬜ Improve accessibility and performance
 - ⬜ Add more interactive elements
 
-💡 Feel free to contribute or suggest improvements!
-📬 Contact me via [LinkedIn](https://www.linkedin.com/in/azzeddine-habib-79580a232/) or email at shado1siratchi9business8@gmail.com
+- 💡 Feel free to contribute or suggest improvements!
+- 📬 Contact me via [LinkedIn](https://www.linkedin.com/in/azzeddine-habib-79580a232/) or email at shado1siratchi9business8@gmail.com
 
 You can save this as `README.md` in your repository. Let me know if you need modifications! 🚀
