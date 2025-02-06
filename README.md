@@ -1,6 +1,7 @@
 # 🌐 Azzeddine Habib - Digital Portfolio  
 
-Welcome to my personal portfolio website! 🚀 This project showcases my skills, projects, and experience as an aspiring **computer technician** with a passion for **creativity and technology**.  
+Welcome to my personal portfolio website! 🚀  
+This project showcases my skills, projects, and experience as an aspiring **computer technician** with a passion for **creativity and technology**.  
 
 ## 🔹 Features  
 - 🖥️ **Responsive Design** – Works on all devices  
@@ -15,20 +16,29 @@ Welcome to my personal portfolio website! 🚀 This project showcases my skills,
 - **Backend (Planned):** Node.js, Express (to be hosted on Render/Vercel)  
 
 ## 🔹 Live Demo  
-🔗 [Visit my portfolio](https://siratchi-business.github.io/azzeddine-habib.github.io/src/index.html)  
+🔗 **[Visit my portfolio](https://siratchi-business.github.io/azzeddine-habib.github.io/src/index.html)**  
 
 ## 🔹 How to Use  
-1. Clone the repository:  
+1. **Clone the repository:**
+   `
    git clone https://github.com/Siratchi-Business/azzeddine-habib.github.io.git
-2. Open index.html in your browser.
-3. Customize and update content as needed.
+   `
+3. **Open `index.html` in your browser.**  
+4. **Customize and update content as needed.**  
 
-## 🔹 Future Improvements
-- ⬜ Implement a backend for dynamic content
-- ⬜ Improve accessibility and performance
-- ⬜ Add more interactive elements
+## 🔹 Future Improvements  
+- [ ] Implement a backend for dynamic content  
+- [ ] Improve accessibility and performance  
+- [ ] Add more interactive elements  
 
-- 💡 Feel free to contribute or suggest improvements!
-- 📬 Contact me via [LinkedIn](https://www.linkedin.com/in/azzeddine-habib-79580a232/) or email at shado1siratchi9business8@gmail.com
+## 🔹 Contact  
+📬 **Feel free to connect with me:**  
+- **LinkedIn:** [Azzeddine Habib](https://www.linkedin.com/in/azzeddine-habib-79580a232/)  
+- **Email:** [shado1siratchi9business8@gmail.com](mailto:shado1siratchi9business8@gmail.com)
+- **Instagram:** [Siratchi Business](https://www.instagram.com/1siratchi.9business8/)  
+
+---
+
+💡 **Contributions and suggestions are welcome!** 
 
 You can save this as `README.md` in your repository. Let me know if you need modifications! 🚀
