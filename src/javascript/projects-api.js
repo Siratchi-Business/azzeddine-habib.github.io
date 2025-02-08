@@ -1,6 +1,6 @@
 fetch('https://api.github.com/users/siratchi-business/repos')
     .then(response => response.json())
-    .then(data => {
+    .then(/** @param {ProjectList} data */ data => {
         const projectGrid = document.getElementById('project-grid');
 
         data.forEach(project => {
@@ -14,8 +14,9 @@ fetch('https://api.github.com/users/siratchi-business/repos')
             projectDescription.textContent = project.description || 'No description available';
 
             const projectLink = document.createElement('a');
-            projectLink.href = project.url; // Enlace al repositorio de GitHub
+            projectLink.href = project.html_url;
             projectLink.textContent = 'Learn More';
+            projectLink.target = '_blank';
 
             projectItem.appendChild(projectTitle);
             projectItem.appendChild(projectDescription);

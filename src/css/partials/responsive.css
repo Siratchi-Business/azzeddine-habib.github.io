@@ -9,3 +9,7 @@
         margin: 0.5rem 0;
     }
 }
+
+html {
+    scroll-behavior: smooth;
+}
