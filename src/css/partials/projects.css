@@ -1,7 +1,7 @@
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 24px; /* Más espacio entre elementos */
+    gap: 24px;
     padding: 20px;
 }
 
@@ -36,7 +36,7 @@
     margin-top: 12px;
     padding: 8px 12px;
     color: #fff;
-    background-color: #169f84;
+    background-color: #e66ea3;
     border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
@@ -44,6 +44,6 @@
 }
 
 .project-item a:hover {
-    background-color: #127f6a;
+    background-color: #67324a;
     text-decoration: none;
 }

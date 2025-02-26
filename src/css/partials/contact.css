@@ -1,62 +1,4 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: #f8f9fa;
-    color: #2c3e50;
-}
-
-h1, h2 {
-    font-weight: 700;
-}
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem 0;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-/* Header */
-header {
-    background: #34495e;
-    color: #ecf0f1;
-    padding: 1rem 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-header .logo {
-    font-size: 1.8rem;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-}
-
-.nav-links li a {
-    color: #ecf0f1;
-    font-size: 1rem;
-    transition: color 0.3s ease;
-}
-
-.nav-links li a:hover {
-    color: #1abc9c;
-}
-
-/* Contact Section */
+/* Contact  */
 .contact {
     padding: 4rem 2rem;
     background: #ffffff;
@@ -112,7 +54,7 @@ header .logo {
 
 .form-group input:focus,
 .form-group textarea:focus {
-    border-color: #1abc9c;
+    border-color: #e66ea3;
     outline: none;
 }
 
@@ -120,7 +62,7 @@ header .logo {
     display: inline-block;
     padding: 0.8rem 2rem;
     font-size: 1rem;
-    color: #169f84;
+    color: #e66ea3;
     background: #ffffff;
     border: none;
     border-radius: 8px;
@@ -129,19 +71,6 @@ header .logo {
 }
 
 .btn:hover {
-    background: #16a085;
-}
-
-/* Footer */
-footer {
-    background: #34495e;
-    color: #ecf0f1;
-    text-align: center;
-    padding: 1rem 0;
-}
-
-footer p img {
-    vertical-align: middle;
-    width: 30px;
-    height: 30px;
+    background: #e66ea3;
+    color: #ffffff;
 }

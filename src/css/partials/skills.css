@@ -18,12 +18,13 @@
 }
 
 .skill-card {
-    background: #ecf0f1;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
     padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, background 0.3s ease;
+    box-shadow: 0 6px 12px rgba(247, 143, 179, 0.2);
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.2s ease-in-out;
 }
 
 .skill-card h3 {
@@ -40,5 +41,5 @@
 
 .skill-card:hover {
     transform: translateY(-10px);
-    background: #dfe6e9;
+    box-shadow: 0 8px 16px rgba(247, 143, 179, 0.4); /* Sombra más intensa al hacer hover */
 }

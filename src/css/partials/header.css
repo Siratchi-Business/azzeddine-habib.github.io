@@ -1,32 +1,37 @@
-/* Header */
+/* --- Header Styles --- */
 header {
-    background: #2c3e50;
-    color: #fff;
+    background: #ffffff;
     padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
+/* --- Logo --- */
+.logo {
+    max-height: 100px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+/* --- Navigation Links --- */
 .nav-links {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center; /* Centra los enlaces */
     list-style: none;
-}
-
-.nav-links li {
-    margin-left: 2rem;
+    padding: 0;
+    gap: 2rem;
 }
 
 .nav-links a {
     text-decoration: none;
-    color: #fff;
+    color: #5f5f5f;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 .nav-links a:hover {
-    color: #1abc9c;
-}
-
-.logo {
-    font-size: 1.8rem;
-    font-weight: bold;
+    color: #e66ea3;
 }

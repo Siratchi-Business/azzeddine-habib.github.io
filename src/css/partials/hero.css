@@ -1,7 +1,7 @@
-/* Hero Section */
+/* Hero */
 .hero {
-    background: linear-gradient(to right, #169f84, #116756);
-    color: white;
+    background: #e66ea3;
+    color: #ffffff;
     text-align: center;
     padding: 4rem 1rem;
 }
@@ -20,7 +20,7 @@
     display: inline-block;
     padding: 0.8rem 2rem;
     background: #fff;
-    color: #1abc9c;
+    color: #e66ea3;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -28,7 +28,7 @@
 }
 
 .btn:hover {
-    background: #16a085;
+    background: #e66ea3;
     color: #fff;
 }
 

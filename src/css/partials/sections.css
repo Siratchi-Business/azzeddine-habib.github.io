@@ -1,15 +1,17 @@
+/* --- Quick Sections Layout --- */
 .quick-sections {
     display: flex;
     gap: 1.5rem;
     flex-wrap: wrap;
     justify-content: center;
-    background: #284152;
+    background: #ffffff;
     padding: 2rem 5%;
 }
 
+/* --- Section Card Styles --- */
 .section {
-    background: #f4f4f4;
-    border: 1px solid #ddd;
+    background: #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 15px;
     padding: 2rem;
     text-align: center;
@@ -18,17 +20,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px rgba(247, 143, 179, 0.2);
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
+/* --- Section Card Hover Effects --- */
 .section:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 16px rgba(247, 143, 179, 0.4);
 }
 
+/* --- Section Links --- */
 .section a {
-    color: #ffffff;
+    color: #e66ea3;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.3rem;
@@ -36,28 +40,18 @@
 }
 
 .section a:hover {
-    color: #127f6a;
+    color: #ffffff;
 }
 
-.section a {
-    color: #169f84;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    transition: color 0.3s ease-in-out;
-}
-
-.section a:hover {
-    color: #127f6a;
-}
-
+/* --- Contact Section Styles --- */
 section.contact {
-    background: #ffffff;
-    padding: 50px 20px;
+    background: #e66ea3;
     text-align: center;
     position: relative;
+    color: #ffffff;
 }
 
+/* --- Contact Section Background Overlay --- */
 section.contact::before {
     content: "";
     position: absolute;
@@ -70,49 +64,89 @@ section.contact::before {
     z-index: 1;
 }
 
+/* --- Contact Section Content Layer --- */
 section.contact .content {
     position: relative;
     z-index: 2;
 }
 
+/* --- Contact Section Heading --- */
 section.contact h2 {
     font-size: 2.5rem;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
+/* --- Contact Info Container --- */
 section.contact .info {
     display: flex;
     justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
     margin-bottom: 30px;
+    color: #ffffff;
 }
 
+/* --- Contact Info Item --- */
 section.contact .info div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #ffffff;
 }
 
+/* --- Contact Info Icons --- */
 section.contact .info div i {
     font-size: 2rem;
-    color: #169f84;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
+/* --- Social Media Links --- */
 section.contact .social {
     display: flex;
     justify-content: center;
     gap: 15px;
 }
 
-section.contact .social a {
-    font-size: 2rem;
-    color: #284152;
-    text-decoration: none;
-    transition: color 0.3s;
+/* --- Paragraph Styles --- */
+section.contact p {
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
 }
 
-section.contact .social a:hover {
-    color: #169f84;
+/* --- Styled Social Media Icons --- */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #e66ea3;
+    border-radius: 50px;
 }
+
+/* --- Social Media Icons --- */
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #e66ea3;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+    background-color: #e66ea3;
+    color: #ffffff;
+}
+
+
