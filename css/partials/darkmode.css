@@ -1,0 +1,74 @@
+/* --- Dark Mode Button Styles --- */
+.dark-mode-toggle {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #e66ea3;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 2px solid #ffffff;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgb(244, 159, 196);
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+/* --- Hover State para el Botón --- */
+.dark-mode-toggle:hover {
+    background-color: #e66ea3;
+    color: #ffffff;
+    border-color: #e66ea3;
+    box-shadow: 0 6px 12px rgb(230, 110, 163);
+}
+
+/* --- Dark Mode Styles --- */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode a {
+    color: #bb86fc;
+}
+
+body.dark-mode header,
+body.dark-mode nav,
+body.dark-mode footer,
+body.dark-mode .container {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+
+body.dark-mode .btn {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+body.dark-mode .nav-links a {
+    background-color: #333;
+    color: #bb86fc;
+    border-color: #444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .nav-links a:hover {
+    background-color: #bb86fc;
+    color: #333;
+    border-color: #bb86fc;
+    box-shadow: 0 6px 12px rgba(187, 134, 252, 0.5);
+}
+
+body.dark-mode .dark-mode-toggle {
+    background-color: #333;
+    color: #bb86fc;
+    border-color: #444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .dark-mode-toggle:hover {
+    background-color: #bb86fc;
+    color: #333;
+    border-color: #bb86fc;
+    box-shadow: 0 6px 12px rgba(187, 134, 252, 0.5);
+}

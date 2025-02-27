@@ -30,4 +30,12 @@ import('./backend-api-call.js')
         console.error("Error loading the module:", error);
     });
 
+import('./darkmode.js')
+    .then((module) => {
+        console.log("Module loaded:", module);
+    })
+    .catch((error) => {
+        console.error("Error loading the module:", error);
+    });
+
 
