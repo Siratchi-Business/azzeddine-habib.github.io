@@ -81,25 +81,11 @@
 }
 
 .details-list li:hover {
-    color: #169f84;
+    color: #e66ea3;
 }
 
 .details-list li::before {
     content: "✔️";
     margin-right: 0.5rem;
-    color: #169f84;
-}
-
-/* Footer */
-footer {
-    background: #34495e;
-    color: #ecf0f1;
-    text-align: center;
-    padding: 1rem 0;
-}
-
-footer p img {
-    vertical-align: middle;
-    width: 30px;
-    height: 30px;
+    color: #e66ea3;
 }

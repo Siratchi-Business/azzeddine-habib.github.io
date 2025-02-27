@@ -11,7 +11,7 @@ header {
 
 /* --- Logo --- */
 .logo {
-    max-height: 100px;
+    max-height: 150px;
     width: auto;
     margin-bottom: 10px;
 }
@@ -25,13 +25,27 @@ header {
     gap: 2rem;
 }
 
+/* --- Navigation Link Styles --- */
 .nav-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
     text-decoration: none;
-    color: #5f5f5f;
+    color: #e66ea3;
     font-weight: bold;
-    transition: color 0.3s;
+    font-size: 1.2rem;
+    border: 2px solid #ffffff;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgb(244, 159, 196);
 }
 
+/* --- Hover State --- */
 .nav-links a:hover {
-    color: #e66ea3;
+    background-color: #e66ea3;
+    color: #ffffff;
+    border-color: #e66ea3;
+    box-shadow: 0 6px 12px rgb(230, 110, 163);
 }
